@@ -6,7 +6,7 @@ def main():
     st.set_page_config(layout="wide")
 
     # Updated file path
-    file_path = r"C:\Users\lenovo\Desktop\hii\1DSection_ECE\SecD1st.xlsx"
+    file_path = r"SecD1st.xlsx"
     df = load_data(file_path)
     if df is not None:
         # Filter dataframe for Section B
